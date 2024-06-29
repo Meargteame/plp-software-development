@@ -5,11 +5,10 @@
 
 // this is a main function which runs first and the dart compiler starts executing from this functions
 void main() {
-  double 
   print(calculate('+', 1, 2));
 }
 
-dynamic calculate(String operation_symbol, double  num1, double num2) {
+dynamic calculate(String operation_symbol, double num1, double num2) {
   if (operation_symbol == '+') {
     return num1 + num2;
   } else if (operation_symbol == '-') {
